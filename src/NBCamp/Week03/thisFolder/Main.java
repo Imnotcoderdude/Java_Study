@@ -8,21 +8,21 @@ public class Main {
         // 모든 자동차는 생산시 기어의 최초 상태 'P' 로 고정 : char gear = 'P'; 직접 대입하여 초기화
 
         // 모델을 변경하면서 만들 수 있고 색상 : Blue, 가격 50000000 고정
-        Car car1 = new Car("GV60");
+        Week03.thisFolder.Car car1 = new Week03.thisFolder.Car("GV60");
         System.out.println("car1.model = " + car1.model);
         System.out.println("car1.color = " + car1.color);
         System.out.println("car1.price = " + car1.price);
         System.out.println("car1.gear = " + car1.gear + "\n");
 
         // 모델, 색상을 변경하면서 만들 수 있고 가격 100000000 고정
-        Car car2 = new Car("GV70", "Red");
+        Week03.thisFolder.Car car2 = new Week03.thisFolder.Car("GV70", "Red");
         System.out.println("car2.model = " + car2.model);
         System.out.println("car2.color = " + car2.color);
         System.out.println("car2.price = " + car2.price);
         System.out.println("car2.gear = " + car2.gear + "\n");
 
         // GV80 모델, 색상 Black, 가격 120000000 으로 완전하게 고정된 경우
-        Car car3 = new Car("GV80", "Black", 120000000);
+        Week03.thisFolder.Car car3 = new Week03.thisFolder.Car("GV80", "Black", 120000000);
         System.out.println("car3.model = " + car3.model);
         System.out.println("car3.color = " + car3.color);
         System.out.println("car3.price = " + car3.price);
