@@ -1,4 +1,4 @@
-package NBCamp.Week03.week04;
+package NBCamp.week04;
 
 public class StudyException {
     public static void main(String[] args) {

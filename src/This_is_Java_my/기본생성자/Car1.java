@@ -1,6 +1,6 @@
-package This_is_Java_my;
+package This_is_Java_my.기본생성자;
 
-public class Car {
+public class Car1 {
     // 설계도에 필드를 선언한 부분
     String model = "수프라 Mk4";
     boolean start = true;

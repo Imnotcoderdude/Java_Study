@@ -1,4 +1,4 @@
-package NBCamp.Week03.week04;
+package NBCamp.week04;
 
 public class OurClass {
     private final boolean just = true;

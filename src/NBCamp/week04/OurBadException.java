@@ -1,4 +1,4 @@
-package NBCamp.Week03.week04;
+package NBCamp.week04;
 
 public class OurBadException extends Exception {
     public OurBadException () {
