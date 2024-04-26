@@ -14,5 +14,8 @@ public class CarExample {
 
         myCar.speed = 300; // 외부 객체에서 필드값 변경하는 방법.
         System.out.println("증속 : "+ myCar.speed);
+
+        //깃 테스트
+        System.out.println("깃테스트 : ");
     }
 }
