@@ -1,4 +1,4 @@
-package PlayJava;
+package Other_Study.Inf_Study.PlayJava;
 
 public class _놀아보자 {
     public static void main(String[] args) {

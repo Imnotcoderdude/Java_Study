@@ -1,4 +1,4 @@
-package PlayJava.코딩테스트_프로그래머스;
+package Other_Study.Inf_Study.PlayJava.코딩테스트_프로그래머스;
 
 public class 입문1 {
     class Solution {
@@ -42,6 +42,20 @@ public class 입문1 {
             }
             return answer;
         }
+    }
+    public int solution(int angle) {
+        int answer = 0;
+
+        if(0 < angle && angle< 90){
+            answer = 1;
+        } else if (angle == 90) {
+            answer = 2;
+        }else if (90 < angle && angle < 180) {
+            answer = 3;
+        } else if (180 == angle ) {
+            answer = 4;
+        }
+        return answer;
     }
 
 

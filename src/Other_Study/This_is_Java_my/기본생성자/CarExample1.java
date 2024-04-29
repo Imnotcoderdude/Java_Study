@@ -1,4 +1,4 @@
-package This_is_Java_my.기본생성자;
+package Other_Study.This_is_Java_my.기본생성자;
 
 public class CarExample1 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package This_is_Java_my.This;
+package Other_Study.This_is_Java_my.This;
 
 public class Korean {
     String nation = "Korean";

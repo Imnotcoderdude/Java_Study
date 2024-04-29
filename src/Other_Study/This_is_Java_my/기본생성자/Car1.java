@@ -1,4 +1,4 @@
-package This_is_Java_my.기본생성자;
+package Other_Study.This_is_Java_my.기본생성자;
 
 public class Car1 {
     // 설계도에 필드를 선언한 부분
