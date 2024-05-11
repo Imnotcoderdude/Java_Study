@@ -1,4 +1,4 @@
-package Other_Study.Inf_Study.PlayJava.코딩테스트_프로그래머스;
+package CodeKata.코딩테스트_프로그래머스;
 
 public class 입문1 {
     class Solution {

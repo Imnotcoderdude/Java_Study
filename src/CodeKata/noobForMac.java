@@ -1,5 +1,7 @@
 package CodeKata;
 
+import java.util.ArrayList;
+
 public class noobForMac {
     class Solution {
         // 짝수의 값 더하기
@@ -34,7 +36,32 @@ public class noobForMac {
             }
             return answer;
         }
+        class Solution {
+            public int[] solution(int[] num_list) {
+                int evenCount = 0;
+                int oddCount = 0;
+
+                for (int num : num_list) {
+                    if (num % 2 == 0) {
+                        evenCount++;
+                    } else {
+                        oddCount++;
+                    }
+                }
+                int[] answer = new int[]{evenCount, oddCount};
+
+                return answer;
+            }
+        }
+            public long[] solution(int x, int n) {
+                long[] answer = new long[n];
+                long sum = x;
+                for (int i = 0; i < n; i++) {
+                    answer[i] = sum;
+                    sum += x;
+                }
+                return answer;
+            }
 
     }
-
 }
