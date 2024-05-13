@@ -1,4 +1,4 @@
-package Other_Study.보충반;
+package NBCamp.BasicClass.보충반수업;
 
 public class Methods {
     public int speedUp() {

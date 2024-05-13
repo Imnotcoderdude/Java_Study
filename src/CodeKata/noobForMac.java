@@ -12,30 +12,34 @@ public class noobForMac {
             }
             return answer;
         }
+
     }
-    class Solution2 {
+
+
+    static class Solution2 {
         public double solution(int[] numbers) {
             double answer = 0;
             for (double num : numbers) {
                 answer += num;
             }
-            return (double)answer / numbers.length;
+            return (double) answer / numbers.length;
         }
 
         public int solution(int angle) {
             int answer = 0;
 
-            if(0 < angle && angle< 90){
+            if (0 < angle && angle < 90) {
                 answer = 1;
             } else if (angle == 90) {
                 answer = 2;
-            }else if (90 < angle && angle < 180) {
+            } else if (90 < angle && angle < 180) {
                 answer = 3;
-            } else if (180 == angle ) {
+            } else if (180 == angle) {
                 answer = 4;
             }
             return answer;
         }
+
         class Solution {
             public int[] solution(int[] num_list) {
                 int evenCount = 0;
@@ -53,15 +57,44 @@ public class noobForMac {
                 return answer;
             }
         }
-            public long[] solution(int x, int n) {
-                long[] answer = new long[n];
-                long sum = x;
-                for (int i = 0; i < n; i++) {
-                    answer[i] = sum;
-                    sum += x;
-                }
-                return answer;
-            }
 
+        public long[] solution(int x, int n) {
+            long[] answer = new long[n];
+            long sum = x;
+            for (int i = 0; i < n; i++) {
+                answer[i] = sum;
+                sum += x;
+            }
+            return answer;
+        }
+
+    }
+}
+class Solution {
+    public int solution(long num) {
+        int answer = 0;
+        int count = 0;
+        for (int i = 0; i <= 500; i++) {
+            if(num == 1) {
+                break;
+            }
+            num = num % 2 == 0 ? num / 2 : (num * 3) + 1;
+            count++;
+        }
+        answer = num == 1 ? count : -1;
+        return answer;
+    }
+}
+class Solution1 {
+    public int solution(long num) {
+        int answer = 0;
+        int count = 0;
+        for (int i = 0; i <= 500; i++) {
+            if (num == 1) break;
+            num = num % 2 == 0 ? num / 2 : (num * 3) + 1;
+            count++;
+        }
+        answer = num == 1 ? count : -1;
+        return answer;
     }
 }
