@@ -98,3 +98,26 @@ class Solution1 {
         return answer;
     }
 }
+// 콜라츠 추측 if문을 사용해서 처리하기 위해 공부중.
+class Solution3 {
+    public int solution(int num) {
+        int answer = 0;
+        int count = 0;
+        for (int i = 0; i <= 500; i++) {
+            if (num == 1) break;
+
+            if (num % 2 == 0) {
+                num = num / 2 ;
+            } else {
+                num = num * 3 + 1;
+            }
+            count++;
+        }
+        if (num == 1) {
+            answer = 1;
+        } else {
+            count = -1;
+        }
+        return answer;
+    }
+}
