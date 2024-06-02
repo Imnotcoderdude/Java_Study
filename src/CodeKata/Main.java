@@ -6,7 +6,7 @@ class Solution {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt(); // 가로의 길이를 받을 n
-        int m = sc.nextInt(); // 세로의 길이를 받을 m 
+        int m = sc.nextInt(); // 세로의 길이를 받을 m
 
         // 첫번째 for문은 세로의 길이를 만든다. 안쪽 for 문이 다회로 움직이기에 가로를 찍고 난 다음으로 넘어가는 방식
         for(int i=0; i<m; i++) {
@@ -17,5 +17,29 @@ class Solution {
             }
             System.out.println();
         }
+        class Solution1 {
+            public int solution(String t, String p) {
+                int answer = 0;
+                int pLength = p.length();
+                long pValue = Long.parseLong(p);
+
+                for (int i = 0; i <= t.length() - pLength; i++) {
+                    String sub = t.substring(i, i + pLength);
+                    long subValue = Long.parseLong(sub);
+
+                    if (subValue <= pValue) {
+                        answer++;
+                    }
+                }
+                return answer;
+            }
+        }
+
+
+
+
+
+
+
     }
 }
